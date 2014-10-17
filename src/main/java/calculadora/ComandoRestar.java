@@ -2,12 +2,10 @@ package calculadora;
 
 import upm.jbb.IO;
 
-public class ComandoRestar implements Comando{
+public class ComandoRestar extends ComandoPadre implements Comando{
 	
-	private Calculadora c;
-	
-	public ComandoRestar( Calculadora c) {
-		this.c = c;
+	public ComandoRestar(Calculadora c) {
+		super(c);
 	}
 
 	@Override
