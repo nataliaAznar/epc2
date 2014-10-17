@@ -15,9 +15,9 @@ public class Caracter extends Componente{
 
 	@Override
 	public String dibujar(boolean mayusculas) {
-		if(mayusculas){
+		if(mayusculas)
 			return Character.toString(this.valor).toUpperCase();
-		}
+		
 		else return Character.toString(this.valor);
 		
 	}

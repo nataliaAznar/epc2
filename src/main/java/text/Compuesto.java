@@ -21,5 +21,10 @@ public abstract class Compuesto extends Componente{
 	public boolean isCompuesto(){
 		return true;
 	}
+	
+	public void delete ( Componente c){
+		if ( this.componentes.contains(c))
+			this.componentes.remove(c);
+	}
 
 }
