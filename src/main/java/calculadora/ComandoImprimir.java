@@ -2,7 +2,7 @@ package calculadora;
 
 import upm.jbb.IO;
 
-public class ComandoImprimir extends ComandoPadre implements Comando {
+public class ComandoImprimir extends ComandoPadre {
 	
 	public ComandoImprimir(Calculadora c) {
 		super(c);

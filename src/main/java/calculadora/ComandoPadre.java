@@ -1,6 +1,6 @@
 package calculadora;
 
-public class ComandoPadre {
+public abstract class ComandoPadre implements Comando{
 	
 	protected Calculadora c;
 	
