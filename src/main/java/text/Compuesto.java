@@ -14,7 +14,6 @@ public abstract class Compuesto extends Componente{
 			texto = texto + c.dibujar(mayusculas);
 		}
 		
-		texto = texto + '\n';
 		return texto;
 	}
 	

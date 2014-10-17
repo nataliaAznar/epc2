@@ -18,6 +18,7 @@ public class Texto extends Compuesto{
 	public String dibujar(boolean mayusculas) {
 		String texto =  super.dibujar(mayusculas);
 		texto = texto + "---o---";
+		texto = texto + '\n';
 		return texto;
 			
 	}

@@ -14,8 +14,10 @@ public class Parrafo extends Compuesto{
 	}
 
 	@Override
-	public String dibujar(boolean mayusculas) { 
-		return  super.dibujar(mayusculas);
+	public String dibujar(boolean mayusculas) {
+		String parrafo = super.dibujar(mayusculas);
+		parrafo = parrafo + '\n';
+		return  parrafo;
 				
 	}
 
