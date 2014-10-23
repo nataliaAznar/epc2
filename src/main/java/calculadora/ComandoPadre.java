@@ -8,4 +8,8 @@ public abstract class ComandoPadre implements Comando{
 		this.c = c;
 	}
 
+	public abstract void execute() ;
+
+	public abstract String name() ;
+
 }
